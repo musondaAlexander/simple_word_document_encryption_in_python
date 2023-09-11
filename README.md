@@ -1,9 +1,40 @@
-# simple_word_document_encryption_in_python
-This code uses a Python Library called cryptography.fernet to encode a Word document.
-It generates a key, which is used to decode the document.
-You can use this Program to do anything that you want.
+# File Encryption and Decryption Tool
+# Overview
+This is a Python script that provides a simple graphical user interface (GUI) for encrypting and decrypting files. It uses the cryptography library to perform encryption and decryption operations. The program allows you to choose files for encryption or decryption and securely manages encryption keys.
 
-In this code, I've added a select_file function that opens a file dialog to allow you to browse and select a Word document file. You can use this function to select the input and output files for encryption and decryption. The rest of the encryption and decryption logic remains the same as in the previous script.
+# Features
+Encryption of any file type.
+Decryption of previously encrypted files.
+Random key generation for each encryption operation.
+Secure storage of encryption keys in a separate key file.
+Error handling and logging for robustness.
+Simple GUI for file selection.
+# Getting Started
+# Prerequisites
+- Python 3.x
+- Cryptography library
+# Installation
+1. Clone this GitHub repository to your local machine:
+git clone https://github.com/musondaAlexander/simple_word_document_encryption_in_python.git
+2. pip install cryptography
+# Usage
+1. python tk_encryption.py
+2. Choose an option:
 
-# tk_encryption.py is used for word documents alone.
-# encryption_all_file.py is used for any type of documents.
+- Enter 1 for encryption.
+- Enter 2 for decryption.
+Follow the prompts in the GUI to select input and output files.
+
+3. The program will generate a random encryption key for encryption and save it to a file named encryption_key.key. Make sure to keep this file secure.
+
+4. For decryption, load the encryption key from encryption_key.key.
+
+5. Encrypted files will have the .enc extension.
+
+3. The program logs events and errors to a file named encryption.log.
+
+# Contributing
+Contributions are welcome! Please feel free to open issues or submit pull requests if you have suggestions, improvements, or bug fixes.
+
+
+
