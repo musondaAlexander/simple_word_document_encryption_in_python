@@ -31,7 +31,10 @@ Follow the prompts in the GUI to select input and output files.
 
 5. Encrypted files will have the .enc extension.
 
-3. The program logs events and errors to a file named encryption.log.
+6. The program logs events and errors to a file named encryption.log.
+
+# Note
+- I added a decrypt file that tries to decrypt the file without providing the key and it shows that the algorithm is Very reliable because if failed to decrypt it on my macchine. If You know a way to do this you can write o me on my email. musondaalexander97@gmail.com  
 
 # Contributing
 Contributions are welcome! Please feel free to open issues or submit pull requests if you have suggestions, improvements, or bug fixes.
